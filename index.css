@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #d3dee4;
+   
+}
+section ul{
+	
+
+}
+section ul li{
+	
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+section ul li a{
+    float: left;
+	align-items: left;
+    text-decoration: none;
+    color: rgb(18, 6, 148);
+    font-weight: bold;
+}
+section ul li a:hover{
+    color: whitesmoke;
+}
+.details{
+    margin-left: 50px;
+    margin-top: 13%;
+}
+.details h1{
+    font-size: 30px;
+    color: rgb(6, 1, 21);
+    margin-bottom: 20px;
+}
+span{
+    color: skyblue;
+}
+.details p{
+    color: #555;
+    line-height: 22px;
+}
+.details a{
+    background:blue;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+}
+.image{
+    padding: auto;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    
+}
+.image img{
+    padding: 60px;
+    height: 75%;
+    position: absolute;
+    left: 50%;
+    bottom: o;
+    transform: translateX(-50%);
+    border-radius: 80px;
+    border-bottom-left-radius: 130px;
+}
+.service{
+	background: #e8e0e0;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: rgb(87, 4, 4);
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #baaeae;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 550px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-two{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
+@media screen and (max-width: 700px) {
+	.image {
+	  display: none;
+	}
+	h2{display: none;
+		float: none;
+		width: 100%;
+	
+    
+}
+	section ul li a{
+	    
+		text-decoration: bisque;
+		color: rgb(13, 13, 13);
+		
+	}
+	.menu-list{
+		display: none;
+	}
+  }
+  @media screen and (min-width: 1200px){
+	.icon-menu-btn{
+		display: none;
+	}
+  }
+  .icon-menu-btn{
+	font-size: 30px;
+	color: white;
+	padding: 6px 12px;
+
+
+  }
+h2{
+	color: white;
+}
+
+
+label{
+	color: white;
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #a9adaf
+}
+
+input{
+width:110%;
+padding:10px 45px;
+border-radius: 15px;
+border:none;
+color:rgb(8, 8, 8);
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+.hero.ckeckbtn{
+	padding: 10px;
+	font-size: 30px;
+	color: white;
+	float: left;
+	line-height: 80px;
+}
